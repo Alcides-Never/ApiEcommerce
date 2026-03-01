@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "B4C1vEP7yVSaolfGs1ermLWf9LF5iKyvDJ2hX51MOyg=",
+  "Source": "APIEcommerce",
+  "BasePath": "_content/APIEcommerce",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
