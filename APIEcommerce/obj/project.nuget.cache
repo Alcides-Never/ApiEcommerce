@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sXkkGeLeCUA=",
+  "dgSpecHash": "g+VsLXEDsWY=",
   "success": true,
-  "projectFilePath": "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/APIEcommerce.csproj",
+  "projectFilePath": "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/APIEcommerce.csproj",
   "expectedPackageFiles": [
     "/home/alcides/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/alcides/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
