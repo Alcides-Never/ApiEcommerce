@@ -323,3 +323,4 @@
 /home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.pdb
 /home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache
 /home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll
+/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json
