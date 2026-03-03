@@ -1,3 +1,4 @@
+using APIEcommerce.Context;
 using APIEcommerce.Interfaces;
 using APIEcommerce.Models;
 
@@ -5,9 +6,17 @@ namespace APIEcommerce.Repositories;
 
 public class ProdutoRepository : IProdutoRepository
 {
+    //Context Injection
+    private readonly ECommerceContext _context;
+    //CTOR
+    public ProdutoRepository(ECommerceContext context)
+    {
+        _context = context;
+    }
+
     public List<Produto> ListarTodos()
     {
-        throw new NotImplementedException();
+        return _context.Produtos.ToList();
     }
 
     public Produto BuscarPorID(int id)
@@ -17,7 +26,7 @@ public class ProdutoRepository : IProdutoRepository
 
     public void Cadastrar(Produto produto)
     {
-        throw new NotImplementedException();
+        _context.Produtos.Add(produto);
     }
 
     public void Atualizar(int id, Produto produto)
