@@ -10,6 +10,8 @@ var app = builder.Build();
 
 testeComunicacao.TesteComunicacao();
 
+app.MapControllers();
+
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
