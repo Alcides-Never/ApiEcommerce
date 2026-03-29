@@ -10,7 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
@@ -34,9 +33,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APIEcommerce/Interfaces/IClienteRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIEcommerce/Interfaces/IItemPedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIEcommerce/Interfaces/IPagamentoRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIEcommerce/Interfaces/IPedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APIEcommerce/Interfaces/IProdutoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APIEcommerce/Repositories/ClienteRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/APIEcommerce/Repositories/PedidoRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/APIEcommerce/Repositories/ProdutoRepository.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -44,6 +48,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="3AMD06XlUNQVLHOhPAr3qGoCTeX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +78,7 @@
       <window_info id="Assembly Explorer" side_tool="true" />
       <window_info id="Backup and Sync History" />
       <window_info id="Learn" show_stripe_button="false" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16594997" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16585873" />
       <window_info id="Commit" order="1" weight="0.16594997" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Pull Requests" order="3" weight="0.16594997" />
@@ -79,7 +86,6 @@
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Build" />
       <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="dotTrace Profiler" />
       <window_info anchor="bottom" id="File Transfer" />
       <window_info anchor="bottom" id="dotMemory" />
@@ -89,8 +95,9 @@
       <window_info anchor="bottom" id="Problems View" order="2" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3302198" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.33090279" />
-      <window_info anchor="bottom" id="NuGet" order="6" weight="0.3302198" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.33091515" />
+      <window_info anchor="bottom" id="NuGet" order="6" weight="0.33091515" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.33091515" />
       <window_info anchor="right" id="RoslynVisualizer" />
       <window_info anchor="right" id="Endpoints" />
       <window_info anchor="right" id="TscnScenePreviewWindowId" />
@@ -154,6 +161,9 @@
       <workItem from="1772811531022" duration="1065000" />
       <workItem from="1772830105645" duration="127000" />
       <workItem from="1772830280528" duration="4655000" />
+      <workItem from="1774750482091" duration="921000" />
+      <workItem from="1774751448322" duration="173000" />
+      <workItem from="1774751676681" duration="2487000" />
     </task>
     <servers />
   </component>
