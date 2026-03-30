@@ -9,17 +9,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Interfaces/IPagamentoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Interfaces/IPagamentoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/refint/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/refint/APIEcommerce.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +81,7 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -117,14 +136,13 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/APIEcommerce/APIEcommerce.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
       <option name="LAUNCH_PROFILE_NAME" value="http" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -133,19 +151,19 @@
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/APIEcommerce/APIEcommerce.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net9.0" />
       <option name="LAUNCH_PROFILE_NAME" value="https" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
-      <option name="AUTO_ATTACH_CHILDREN" value="0" />
-      <option name="MIXED_MODE_DEBUG" value="0" />
       <method v="2">
         <option name="Build" />
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="" />
@@ -164,6 +182,7 @@
       <workItem from="1774750482091" duration="921000" />
       <workItem from="1774751448322" duration="173000" />
       <workItem from="1774751676681" duration="2487000" />
+      <workItem from="1774815740348" duration="3597000" />
     </task>
     <servers />
   </component>
@@ -178,18 +197,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/APIEcommerce/Repositories/ProdutoRepository.cs</url>
           <line>37</line>

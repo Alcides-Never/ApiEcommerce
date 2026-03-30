@@ -4,22 +4,25 @@ using APIEcommerce.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace APIEcommerce.Controllers;
+
 [Route("api/[controller]")]
 [ApiController]
-public class PedidoController : ControllerBase
+
+public class PagamentoController : ControllerBase
 {
     private readonly ECommerceContext _context;
-    private IPedidoRepository _pedidoRepository;
+    private IPagamentoRepository _pagamentoRepository;
 
-    public PedidoController(ECommerceContext context)
+    public PagamentoController(ECommerceContext context)
     {
         _context = context;
-        _pedidoRepository = new PedidoRepository(_context);
+        _pagamentoRepository = new PagamentoRepository(_context);
     }
 
     [HttpGet]
     public IActionResult ListarTodos()
     {
-        return Ok(_pedidoRepository.ListarTodos());
+        return Ok(_pagamentoRepository.ListarTodos());
     }
+
 }
