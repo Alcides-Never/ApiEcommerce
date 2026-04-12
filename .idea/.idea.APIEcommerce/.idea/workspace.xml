@@ -9,28 +9,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/APIEcommerce.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/APIEcommerce.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Interfaces/IPagamentoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Interfaces/IPagamentoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Interfaces/IItemPedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Interfaces/IItemPedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/APIEcommerce.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/apphost" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/apphost" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/refint/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/refint/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/project.assets.json" afterDir="false" />
@@ -182,7 +179,7 @@
       <workItem from="1774750482091" duration="921000" />
       <workItem from="1774751448322" duration="173000" />
       <workItem from="1774751676681" duration="2487000" />
-      <workItem from="1774815740348" duration="3597000" />
+      <workItem from="1774815740348" duration="9229000" />
     </task>
     <servers />
   </component>

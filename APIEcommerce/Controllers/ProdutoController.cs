@@ -1,5 +1,6 @@
 using APIEcommerce.Context;
 using APIEcommerce.Interfaces;
+using APIEcommerce.Models;
 using APIEcommerce.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,6 +24,13 @@ namespace APIEcommerce.Controllers
         {
             return Ok(_produtoRepository.ListarTodos());
         }
+
+        [HttpPost]
+        public IActionResult CadastrarProduto(Produto produto)
+        {
+            _produtoRepository.Cadastrar(produto);
+            _context.SaveChanges();
+            return Created();
+        }
     }
-    
 }

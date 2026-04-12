@@ -324,3 +324,8 @@
 /home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.genruntimeconfig.cache
 /home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/ref/APIEcommerce.dll
 /home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.sourcelink.json
+/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/Debug/net9.0/APIEcommerce.MvcApplicationPartsAssemblyInfo.cs
