@@ -27,6 +27,7 @@ public class ProdutoRepository : IProdutoRepository
     public void Cadastrar(Produto produto)
     {
         _context.Produtos.Add(produto);
+        _context.SaveChanges();
     }
 
     public void Atualizar(int id, Produto produto)

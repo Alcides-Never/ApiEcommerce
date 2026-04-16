@@ -13,10 +13,11 @@ namespace APIEcommerce.Controllers
         private readonly ECommerceContext _context;
         private IProdutoRepository _produtoRepository;
 
-        public ProdutoController(ECommerceContext context)
+        public ProdutoController(IProdutoRepository produtoRepository)
         {
-            _context = context;
-            _produtoRepository = new ProdutoRepository(_context);
+           // _context = context;
+            //_produtoRepository = new ProdutoRepository(_context);
+            _produtoRepository = produtoRepository;
         }
 
         [HttpGet]
@@ -29,7 +30,7 @@ namespace APIEcommerce.Controllers
         public IActionResult CadastrarProduto(Produto produto)
         {
             _produtoRepository.Cadastrar(produto);
-            _context.SaveChanges();
+            //_context.SaveChanges();
             return Created();
         }
     }
