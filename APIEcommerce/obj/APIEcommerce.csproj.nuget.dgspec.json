@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/APIEcommerce.csproj": {}
+    "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/APIEcommerce.csproj": {}
   },
   "projects": {
-    "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/APIEcommerce.csproj": {
+    "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/APIEcommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/APIEcommerce.csproj",
+        "projectUniqueName": "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/APIEcommerce.csproj",
         "projectName": "APIEcommerce",
-        "projectPath": "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/APIEcommerce.csproj",
+        "projectPath": "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/APIEcommerce.csproj",
         "packagesPath": "/home/alcides/.nuget/packages/",
-        "outputPath": "/home/alcides/Development/remote_Rider/APIEcommerce/APIEcommerce/obj/",
+        "outputPath": "/home/alcides/Home/Development/WorkSpace/ApiEcommerce/APIEcommerce/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alcides/.nuget/NuGet/NuGet.Config"
@@ -20,7 +20,6 @@
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -89,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.113/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/alcides/.dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

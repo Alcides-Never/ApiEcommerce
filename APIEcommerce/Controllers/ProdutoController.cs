@@ -15,8 +15,6 @@ namespace APIEcommerce.Controllers
 
         public ProdutoController(IProdutoRepository produtoRepository)
         {
-           // _context = context;
-            //_produtoRepository = new ProdutoRepository(_context);
             _produtoRepository = produtoRepository;
         }
 
@@ -26,12 +24,51 @@ namespace APIEcommerce.Controllers
             return Ok(_produtoRepository.ListarTodos());
         }
 
+        [HttpGet("{id}")]
+        public IActionResult ListarPorID(int id)
+        {
+            Produto produto = _produtoRepository.BuscarPorID(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(produto);
+        }
+
         [HttpPost]
         public IActionResult CadastrarProduto(Produto produto)
         {
             _produtoRepository.Cadastrar(produto);
-            //_context.SaveChanges();
             return Created();
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Editar(int id, Produto produto)
+        {
+            try
+            {
+                _produtoRepository.Atualizar(id, produto);
+                return Ok(produto);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id)
+        {
+            try
+            {
+                _produtoRepository.Deletar(id);
+                return NoContent();
+            }
+            catch(Exception ex)
+            {
+                return NotFound("Produto não Encontrado");
+            }
         }
     }
 }
