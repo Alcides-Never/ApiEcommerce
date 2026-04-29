@@ -53,6 +53,13 @@ public class ClienteRepository : IClienteRepository
 
     public void Deletar(int id)
     {
-        throw new NotImplementedException();
+        Cliente clienteEncontrado = _context.Clientes.Find(id);
+        if (clienteEncontrado == null)
+        {
+            throw new Exception();
+        }
+
+        _context.Clientes.Remove(clienteEncontrado);
+        _context.SaveChanges();
     }
 }

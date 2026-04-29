@@ -29,7 +29,8 @@ public partial class ECommerceContext : DbContext
     /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Server=192.168.15.101;Database=eCommerce;User Id=sa;Password=;TrustServerCertificate=true;");*/
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("Server=100.79.214.85;Database=eCommerce;User Id=sa;Password=A6b72026!;TrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer("Server=100.79.214.85;Database=eCommerce;User Id=sa;Password=A6b72026!;" +
+        "TrustServerCertificate=true;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
