@@ -1,5 +1,6 @@
 using APIEcommerce.Context;
 using APIEcommerce.Interfaces;
+using APIEcommerce.Models;
 using APIEcommerce.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,19 +11,65 @@ namespace APIEcommerce.Controllers;
 
 public class PagamentoController : ControllerBase
 {
-    private readonly ECommerceContext _context;
+
     private IPagamentoRepository _pagamentoRepository;
 
-    public PagamentoController(ECommerceContext context)
+    public PagamentoController(IPagamentoRepository pagamentoRepository)
     {
-        _context = context;
-        _pagamentoRepository = new PagamentoRepository(_context);
+        _pagamentoRepository = pagamentoRepository;
     }
 
     [HttpGet]
     public IActionResult ListarTodos()
     {
         return Ok(_pagamentoRepository.ListarTodos());
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult ListarPorID(int id)
+    {
+        Pagamento pagamento = _pagamentoRepository.BuscarPorId(id);
+        if (pagamento == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(pagamento);
+    }
+
+    [HttpPost]
+    public IActionResult CadastrarPagamento(Pagamento pagamento)
+    {
+        _pagamentoRepository.Cadastrar(pagamento);
+        return Created();
+    }
+
+    [HttpPut]
+    public IActionResult Editar(int id, Pagamento pagamento)
+    {
+        try
+        {
+            _pagamentoRepository.Atualizar(id, pagamento);
+            return Ok(pagamento);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex);
+        }
+    }
+
+    [HttpDelete]
+    public IActionResult Deletar(int id)
+    {
+        try
+        {
+            _pagamentoRepository.Deletar(id);
+            return NoContent();
+        }
+        catch (Exception ex)
+        {
+            return NotFound("Não encontrado");
+        }
     }
 
 }

@@ -10,7 +10,8 @@ namespace APIEcommerce.Controllers
     [ApiController]
     public class ProdutoController : ControllerBase
     {
-        private readonly ECommerceContext _context;
+        // abaixo a declaraćão de um context pois antes aqui o contexto estava sendo declarado
+        //private readonly ECommerceContext _context;
         private IProdutoRepository _produtoRepository;
 
         public ProdutoController(IProdutoRepository produtoRepository)

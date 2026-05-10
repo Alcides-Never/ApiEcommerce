@@ -9,9 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ClienteController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ClienteController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/ClienteRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/ClienteRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/PedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PedidoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
@@ -112,6 +114,7 @@
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
       <window_info anchor="right" id="Monitoring" order="5" weight="0.32983872" />
       <window_info active="true" anchor="right" x="1716" y="156" width="844" height="1312" id="Coverage" order="6" side_tool="true" type="FLOATING" weight="0.32983872" />
+      <window_info anchor="right" id="documentation.v2" order="7" side_tool="true" weight="0.33000678" />
     </layout>
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.APIEcommerce: http">
@@ -170,7 +173,7 @@
       <workItem from="1774815740348" duration="9229000" />
       <workItem from="1776183433257" duration="3437000" />
       <workItem from="1776699929188" duration="2132000" />
-      <workItem from="1777302713801" duration="5711000" />
+      <workItem from="1777302713801" duration="9454000" />
     </task>
     <servers />
   </component>
