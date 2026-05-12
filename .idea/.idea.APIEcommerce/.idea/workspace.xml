@@ -10,10 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PagamentoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PagamentoRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/PedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/PedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
@@ -92,16 +91,16 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="dotTrace Profiler" />
       <window_info anchor="bottom" id="File Transfer" />
-      <window_info anchor="bottom" id="dotMemory" />
       <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Problems" order="1" />
       <window_info anchor="bottom" id="Problems View" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.3302198" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.5149306" />
       <window_info anchor="bottom" id="Services" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.5149306" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.5149306" />
       <window_info anchor="bottom" id="NuGet" order="6" weight="0.33091515" />
-      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.33091515" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.5149306" />
+      <window_info anchor="bottom" id="dotMemory" order="8" weight="0.5149306" />
       <window_info anchor="right" id="RoslynVisualizer" />
       <window_info anchor="right" id="Endpoints" />
       <window_info anchor="right" id="TscnScenePreviewWindowId" />
@@ -173,7 +172,7 @@
       <workItem from="1774815740348" duration="9229000" />
       <workItem from="1776183433257" duration="3437000" />
       <workItem from="1776699929188" duration="2132000" />
-      <workItem from="1777302713801" duration="9454000" />
+      <workItem from="1777302713801" duration="13395000" />
     </task>
     <servers />
   </component>
