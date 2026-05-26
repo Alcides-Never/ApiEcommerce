@@ -26,6 +26,7 @@ public class ItemPedidoRepository : IItemPedidoRepository
     public void Cadastrar(ItemPedido itemPedido)
     {
         _context.ItemPedidos.Add(itemPedido);
+        _context.SaveChanges();
     }
 
     public void Atualizar(int id, ItemPedido itemPedido)

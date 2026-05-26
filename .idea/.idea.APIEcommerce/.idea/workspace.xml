@@ -11,8 +11,9 @@
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/PedidoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ItemPedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ItemPedidoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/ItemPedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/ItemPedidoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
@@ -57,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.APIEcommerce: http.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.APIEcommerce: http.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RdControllerToolWindowsLayoutState" isNewUi="true">
     <layout>
       <window_info id="Bookmarks" side_tool="true" />
@@ -88,6 +89,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="dotTrace Profiler" />
       <window_info anchor="bottom" id="File Transfer" />
@@ -172,7 +174,10 @@
       <workItem from="1774815740348" duration="9229000" />
       <workItem from="1776183433257" duration="3437000" />
       <workItem from="1776699929188" duration="2132000" />
-      <workItem from="1777302713801" duration="13395000" />
+      <workItem from="1777302713801" duration="13876000" />
+      <workItem from="1779231495954" duration="753000" />
+      <workItem from="1779468664684" duration="299000" />
+      <workItem from="1779469050169" duration="3270000" />
     </task>
     <servers />
   </component>

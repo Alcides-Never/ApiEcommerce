@@ -1,4 +1,6 @@
 using APIEcommerce.Context;
+using APIEcommerce.Interfaces;
+using APIEcommerce.Models;
 using APIEcommerce.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,19 +11,26 @@ namespace APIEcommerce.Controllers;
 
 public class ItemPedidoController : ControllerBase
 {
-    private readonly ECommerceContext _context;
-    private ItemPedidoRepository _itemPedidoRepository;
+    // Um adendo, a primeira chamada foi sem criar o builder no program, não localizava. ao refazer a variável, ele
+    //chamou o conteúdo declarado no program main
+    private IItemPedidoRepository _itemPedidoRepository;
 
-    public ItemPedidoController(ECommerceContext context)
+    public ItemPedidoController(IItemPedidoRepository batata)
     {
-        _context = context;
-        _itemPedidoRepository = new ItemPedidoRepository(_context);
+        _itemPedidoRepository = batata;
     }
 
     [HttpGet]
     public IActionResult ListarTodos()
     {
         return Ok(_itemPedidoRepository.ListarTodos());
+    }
+
+    [HttpPost]
+    public IActionResult CadastrarItemPedido(ItemPedido itemPedido)
+    {
+        _itemPedidoRepository.Cadastrar(itemPedido);
+        return Created();
     }
 
 }
