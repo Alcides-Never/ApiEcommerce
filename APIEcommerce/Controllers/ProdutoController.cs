@@ -66,7 +66,7 @@ namespace APIEcommerce.Controllers
                 _produtoRepository.Deletar(id);
                 return NoContent();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return NotFound("Produto não Encontrado");
             }

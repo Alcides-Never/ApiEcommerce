@@ -11,9 +11,12 @@
     <list default="true" id="327049dc-f379-4cf4-9613-f0a24c70a3d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APIEcommerce/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Context/ECommerceContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ItemPedidoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ItemPedidoController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIEcommerce/Repositories/ItemPedidoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Repositories/ItemPedidoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Controllers/ProdutoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Models/Cliente.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Models/Cliente.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Models/ItemPedido.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Models/ItemPedido.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Models/Pagamento.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Models/Pagamento.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Models/Pedido.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Models/Pedido.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIEcommerce/Models/Produto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/Models/Produto.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/bin/Debug/net9.0/APIEcommerce.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/APIEcommerce/obj/Debug/net9.0/APIEcommerce.AssemblyInfo.cs" afterDir="false" />
@@ -60,7 +63,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Launch Settings Profile.APIEcommerce: http.executor": "Debug",
+    ".NET Launch Settings Profile.APIEcommerce: http.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -178,6 +181,7 @@
       <workItem from="1779231495954" duration="753000" />
       <workItem from="1779468664684" duration="299000" />
       <workItem from="1779469050169" duration="3270000" />
+      <workItem from="1782229364364" duration="1377000" />
     </task>
     <servers />
   </component>
